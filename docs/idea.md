@@ -47,7 +47,8 @@ Para la realización del proyecto se van a abordar por medio de etapas de desarr
  - Dormir: {"energía":30, "felicidad":5, "hambre":5}
  - Limpiar: {"higene":20, "felicidad":5}
  - Curar: {"salud": 20}
- - Liberar: Reinicio del juego
+ - Aprender: {"felicidad":10} Muestra un dato educativo aleatorio sobre la especie. El slot de esta acción es compartido con Liberar.
+ - Liberar: Reinicio del juego. Solo visible cuando se cumplen las condiciones de liberación, reemplazando a Aprender.
 
 ### Reglas de tiempo
 
@@ -91,3 +92,7 @@ El segundo caso es que cumpliendose las condiciones de Liberación aparece un in
 ### narrativa de juego
 
 "Eres cuidador de un centro de rehabilitación de fauna nativa. Tu misión es ayudar a una cría rescatada a crecer sana hasta que pueda volver a su hábitat natural."
+
+### Componente educativo
+
+Cada especie tiene un conjunto de datos breves (6 hechos) sobre su biología, hábitat y estado de conservación. Estos se muestran al usar la acción "Aprender", que comparte slot con "Liberar". Mientras el animal no sea liberable, el botón muestra "Info" y entrega un dato aleatorio. Al cumplir las condiciones de liberación, el botón cambia a "Lib" (verde) indicando que ya se aprendió lo necesario para liberarlo.

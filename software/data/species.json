@@ -1,0 +1,26 @@
+{
+  "gato_guina": {
+    "name": "Gato Güiña",
+    "nombre_cientifico": "Leopardus guigna",
+    "color": [200, 160, 100],
+    "descripcion": "El gato más pequeño de América, habita en bosques templados del sur de Chile."
+  },
+  "chungungo": {
+    "name": "Chungungo",
+    "nombre_cientifico": "Lontra felina",
+    "color": [100, 130, 150],
+    "descripcion": "Nutria marina que habita en las costas rocosas de Chile."
+  },
+  "ranita_darwin": {
+    "name": "Ranita de Darwin",
+    "nombre_cientifico": "Rhinoderma darwinii",
+    "color": [80, 180, 70],
+    "descripcion": "Pequeña rana endémica de los bosques templados del sur de Chile y Argentina."
+  },
+  "zorro_chilote": {
+    "name": "Zorro Chilote",
+    "nombre_cientifico": "Lycalopex fulvipes",
+    "color": [190, 130, 80],
+    "descripcion": "Zorro endémico del archipiélago de Chiloé y la Cordillera de Nahuelbuta."
+  }
+}
