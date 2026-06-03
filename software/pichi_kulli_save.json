@@ -1,15 +1,15 @@
 {
   "especie": "gato_guina",
-  "hambre": 28,
-  "energia": 95,
-  "felicidad": 95,
-  "higiene": 75,
+  "hambre": 44,
+  "energia": 80,
+  "felicidad": 100,
+  "higiene": 65,
   "salud": 100,
   "triste": false,
-  "tiempo_total": 28.856166666665043,
+  "tiempo_total": 83.51633333338556,
   "vivo": true,
   "liberable": false,
   "durmiendo": false,
   "sleep_start_min": 1.1986666666666672,
-  "game_minutes": 28.856166666665043
+  "game_minutes": 83.51633333338556
 }

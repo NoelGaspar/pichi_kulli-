@@ -168,20 +168,17 @@ class GameHUD:
                 col_x = COL_LEFT if col_i == 0 else COL_RIGHT
                 val = getattr(self.animal, key)
 
-                # icon
                 icon_r = pygame.Rect(col_x, row_y + ICON_Y_OFF, ICON_S, ICON_S)
                 pygame.draw.rect(surface, color, icon_r, border_radius=2)
                 ls = font.render(letter, True, WHITE)
                 lw = ls.get_size()[0]
                 surface.blit(ls, (col_x + (ICON_S - lw) // 2, row_y + ICON_Y_OFF - 1))
 
-                # bar bg
                 bar_x = col_x + ICON_S + 4
                 bar_r = pygame.Rect(bar_x, row_y, bar_inner_w, STAT_BAR_H)
                 bar_bg = (50, 50, 60)
                 pygame.draw.rect(surface, bar_bg, bar_r, border_radius=2)
 
-                # bar fill
                 fill_w = int(bar_inner_w * val / 100)
                 if fill_w > 0:
                     if val < 25:
@@ -193,7 +190,6 @@ class GameHUD:
                     fill_r = pygame.Rect(bar_x, row_y, fill_w, STAT_BAR_H)
                     pygame.draw.rect(surface, bar_c, fill_r, border_radius=2)
 
-                # value number
                 vs = val_font.render(str(int(val)), True, WHITE)
                 vx = col_x + COL_W - 22
                 surface.blit(vs, (vx, row_y))
