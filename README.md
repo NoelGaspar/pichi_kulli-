@@ -1,6 +1,7 @@
 # Pichi-Kulliñ
 
-Simulador de crianza de fauna nativa chilena. Cuida un animal hasta que esté listo para ser liberado.
+Simulador de crianza de fauna nativa chilena. Cuida un animal hasta que esté listo para ser liberado.En desarrollo 
+
 
 ## Versiones
 
