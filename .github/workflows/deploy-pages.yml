@@ -38,6 +38,16 @@ jobs:
         run: |
           python3 -m pygbag --build .
 
+      - name: Debug build output
+        run: |
+          echo "=== Contenido de build/ ==="
+          find build -type f | head -40
+          echo ""
+          echo "=== build/index.html existe? ==="
+          test -f build/index.html && echo "SÍ" || echo "NO"
+          echo "=== Buscando index.html ==="
+          find build -name "index.html"
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
