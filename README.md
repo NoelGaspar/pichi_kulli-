@@ -35,4 +35,4 @@ python3 -m pygbag --build .
 El build genera una carpeta `build/` con contenido estático servible desde GitHub Pages, Netlify o cualquier hosting estático.
 
 ### Firmware (próximamente)
-Versión embebida para hardware físico con pantalla propia (MicroPython/CircuitPython). En desarrollo.
+Versión embebida para hardware físico con pantalla propia. En desarrollo.
